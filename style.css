@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+*{
+    color: white;
+    border: none;
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    background: #173a65;
+}
+body,html{
+  margin: 0;
+  height: 100vh;
+  width: 100%;
+  --color: #d0d0d0;
+  background-color: #e5e5e5;
+  background-image: linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent),
+      linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent);
+  background-size: 55px 55px;
+
+}
+div{ 
+    position: absolute;
+    margin-top: 5%;
+    box-shadow: 0 0 25px gray;
+    border-radius: 25px;
+    text-align: center;
+    width: 80%;
+    height: auto;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    max-width: 1000px;
+}
+
+img{
+    height: 150px;
+    border-radius: 50%;
+    padding: 5px;
+}
+select, button{
+    appearance: none;
+    width: 15rem;
+    padding: 10px;
+    background: none;
+    border-radius: 0.25em;
+    box-shadow: 0 0 10px  rgba(0,0,0,0.5);
+    cursor: pointer;
+    font-size: 20px;
+}
+.box{
+    position: relative;
+    margin-top: 0;
+    width: 50%;
+    height: auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    padding: 30px;
+}
+.form {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+  }
+  .form label {
+    position: relative;
+  }
+  .form label .input {
+    font-size: 20px;
+    width: 100%;
+    padding: 20px 05px 05px 10px;
+    outline: 0;
+    border: 1px solid rgba(255, 255, 255, 0.397);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    border-radius: 10px;
+  }
+  .form label .input + span {
+    position: absolute;
+    left: 10px;
+    top: 0px;
+    font-size: 0.8em;
+  }
+  ::placeholder{
+    color: #173a65;
+  }
+  button{
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+  }
+  .material-symbols-outlined{
+    margin-top: 20px;
+  }
+  .hr{
+    transform: translateY(-155px);
+  }
+
+  .a{
+    padding: 10px;
+    line-height: 55px;
+    }
