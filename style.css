@@ -101,3 +101,14 @@ select, button{
     padding: 10px;
     line-height: 55px;
     }
+    .autor{
+      position: absolute;
+      padding: 3px;
+      border-radius: 3px;
+      bottom: 0;
+      text-align: center;
+      margin-left: 50%;
+      transform: translateX(-50%);
+      color: #d5d5d5;
+      background: rgba(0,0,100,0.5);
+    }
