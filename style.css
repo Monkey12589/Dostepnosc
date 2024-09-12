@@ -93,7 +93,7 @@ button{
 button:hover{
     background: navy;
     color: whitesmoke;
-    border: 1px solid whitesmoke;
+    border: 2px solid whitesmoke;
 }
 .material-symbols-outlined{
   margin-top: 20px;
