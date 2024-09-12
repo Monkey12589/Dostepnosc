@@ -112,6 +112,7 @@ button:hover{
   text-align: center;
   margin-left: 50%;
   transform: translateX(-50%);
+  margin-bottom: 20px;
   color: navy;
   background: rgb(240, 255, 255);
   box-shadow: 0 0 5px rgba(0,0,100,0.5);
