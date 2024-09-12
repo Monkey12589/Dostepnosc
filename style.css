@@ -47,7 +47,8 @@ select, button{
 }
 .box{
     margin-top: 0;
-    width: 60%;
+    width: 50%;
+    min-width: 250px;
     text-align: center;
     height: auto;
     border: solid 2px navy;
